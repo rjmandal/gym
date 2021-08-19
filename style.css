@@ -1,0 +1,50 @@
+      /* css reset */
+      body{
+        margin: 0px;
+        padding: 0px;
+        background: url(image/img-1.jpg) no-repeat center center/cover;
+        height: 654px;
+    }
+.left{
+    position:absolute;    
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    border:2px solid red;
+    color: white;
+}
+.left img{
+    width: 150px;
+}
+.mid{
+display: block;
+width: 45%;
+margin : 20px auto;
+    border:2px solid green;
+    color: white;
+}
+.right{
+    position:absolute;    
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    border:2px solid yellow;
+    color: white;
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 1.6rem;
+}
+.navbar li :hover,.navbar li.active{
+text-decoration: underline;
+color: grey;
+}
+.navbar li a{
+    color: white;
+    padding: 34px 23px;
+    text-decoration: none ;
+}
