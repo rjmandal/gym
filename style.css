@@ -3,32 +3,38 @@
         margin: 0px;
         padding: 0px;
         background: url(image/img-1.jpg) no-repeat center center/cover;
-        height: 654px;
+        height: 745px;
+        font-family: 'Montserrat', sans-serif;
+        justify-content: center;
     }
 .left{
     position:absolute;    
-    left: 34px;
+    left: 40px;
     top: 20px;
     display: inline-block;
-    border:2px solid red;
+    /* border:2px solid red; */
     color: white;
+    text-align: center;
 }
 .left img{
-    width: 150px;
+    width: 172px;
+}
+.left div{
+    font-size: 1.3rem;
 }
 .mid{
 display: block;
-width: 45%;
+width: 50%;
 margin : 20px auto;
-    border:2px solid green;
-    color: white;
+    /* border:2px solid blue; */
+    border-radius: 20px;
 }
 .right{
     position:absolute;    
     right: 34px;
     top: 20px;
     display: inline-block;
-    border:2px solid yellow;
+    /* border:2px solid yellow; */
     color: white;
 
 }
@@ -38,13 +44,51 @@ margin : 20px auto;
 .navbar li{
     display: inline-block;
     font-size: 1.6rem;
+    font-weight:bolder;
 }
 .navbar li :hover,.navbar li.active{
 text-decoration: underline;
-color: grey;
+color: #FF616D;
 }
 .navbar li a{
-    color: white;
-    padding: 34px 23px;
+    color: #CD113B;
+    padding: 34px 15px;
     text-decoration: none ;
 }
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 9px;
+    background-color: #CD113B;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20PX;
+    cursor: pointer;
+}
+.btn:hover{
+background-color: #FF616D;
+color: black;
+}
+.container{
+    text-align: center;
+    border: 2px solid white;
+    margin: 109px 38px;
+    padding: 20px 14px;
+    width: 39%;
+    border-radius: 28px;
+    color: #CD113B;
+}
+.form-group input{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    width: 33%;
+    padding: 7px;
+    border: 2px solid #CD113B;
+    margin: 11px auto;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
